@@ -38,7 +38,7 @@ Welcome! I am an independent mobile developer crafting reliable, functional, and
 
 ---
 
-### 💡 [Budget Tracker]
+### 💡 Budget Tracker
 > **Take control of your daily finances with Budget Tracker — a simple, private, multi-language app that helps you monitor your spending, manage fixed expenses, and stay within budget until payday.**
 
 <a href="https://play.google.com/store/apps/details?id=com.trichi.budget.tracker" target="_blank">
