@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — Word Cross</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.7;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 24px;
+      color: #333;
+    }
+    h1 { font-size: 1.6rem; border-bottom: 2px solid #eee; padding-bottom: 12px; }
+    h2 { font-size: 1.25rem; margin-top: 32px; }
+    p { margin: 12px 0; }
+    a { color: #0066cc; }
+    .last-updated { color: #888; font-size: 0.9rem; margin-bottom: 24px; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy — Word Cross</h1>
+  <p class="last-updated">Last updated: September 2026</p>
+
+  <h2>1. Overview</h2>
+  <p>
+    Word Cross ("we", "our", or "the app") is a fully offline word-puzzle game. This privacy policy explains
+    what data is (and is not) collected when you use the Word Cross mobile application, and how that data is handled.
+  </p>
+
+  <h2>2. Data Stored on Your Device Only (Local Storage)</h2>
+  <p>
+    Your game progress and preferences are stored <strong>locally on your device only</strong>. We do not sync,
+    upload, or share this data with any server. Data is persisted using the device's native storage
+    (Capacitor Preferences, with a local-storage fallback) and remains entirely under your control:
+  </p>
+  <ul>
+    <li>Completed levels and games played</li>
+    <li>High scores and best times</li>
+    <li>Hint points and energy balance (with its last-refill timestamp)</li>
+    <li>App settings: sound on/off and volume, light/dark theme, selected language</li>
+    <li>Your ad-consent choice and whether the introduction tour has been shown</li>
+  </ul>
+
+  <h2>3. Data We Do NOT Collect</h2>
+  <p>We do not collect, store, or process any of the following:</p>
+  <ul>
+    <li>Personal identifiers (name, email address, phone number)</li>
+    <li>Account credentials — the app has no sign-up or login</li>
+    <li>Precise location data (GPS)</li>
+    <li>Contacts, photos, camera, microphone, or files</li>
+    <li>Gameplay analytics or behavioural tracking</li>
+    <li>Any data you enter into the app (there is none to enter)</li>
+  </ul>
+
+  <h2>4. Permissions</h2>
+  <p>
+    The app requests only the <strong>INTERNET</strong> permission, which is used exclusively for the ad requests
+    and version check described below. Word Cross does not request notification, location, camera, microphone,
+    contacts, or storage permissions.
+  </p>
+
+  <h2>5. Advertising (Google AdMob)</h2>
+  <p>
+    The app uses <a href="https://admob.google.com/" target="_blank" rel="noopener">Google AdMob</a> to display a
+    banner, and interstitial and rewarded video ads (the rewarded ads grant optional in-game hint points or energy).
+    AdMob may collect anonymous information about your device and ad interactions in accordance with Google's
+    privacy policy, including:
+  </p>
+  <ul>
+    <li>Device identifiers (e.g., Advertising ID)</li>
+    <li>IP address (approximate location)</li>
+    <li>Ad interactions (impressions, clicks, video completion)</li>
+  </ul>
+  <p>
+    On first launch, Google's User Messaging Platform may present a consent form (EEA, UK and other regions
+    where required). If you decline personalized ads, ad requests are made in non-personalized mode.
+    You can also opt out of personalized advertising in your device settings.
+    See Google's privacy policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>.
+  </p>
+
+  <h2>6. Version Check</h2>
+  <p>
+    When the app starts, it fetches a small <code>version.json</code> file from GitHub Pages
+    (<a href="https://iamtrichi.github.io/PP/word-cross/version.json" target="_blank" rel="noopener">version.json</a>)
+    to determine whether a newer app version is available. This request carries no personal data — it only reads
+    the published version numbers and compares them with the version string reported by the operating system.
+    If a newer version exists, the app may show an optional update prompt, or (for unsupported versions) require an
+    update and offer to open the app's Google Play listing. If the request fails (offline, timeout), the app simply
+    continues and you can play normally.
+  </p>
+
+  <h2>7. First-Launch Language Detection</h2>
+  <p>
+    On the very first launch, and only when no language has been chosen yet, the app may call
+    <a href="https://ipwho.is/" target="_blank" rel="noopener">ipwho.is</a> (with a 5-second timeout) to read the
+    two-letter country code associated with your connection. It is used for one purpose only: to preselect the
+    interface language (Arabic for Arabic-speaking countries; otherwise your device language is used).
+    Nothing is stored on our servers, and the request is skipped entirely on later launches once a language
+    is stored. You can change the language at any time inside the app.
+  </p>
+
+  <h2>8. Third-Party Services</h2>
+  <p>The app relies on the following third-party libraries and platforms:</p>
+  <ul>
+    <li><a href="https://capacitorjs.com/" target="_blank" rel="noopener">Capacitor</a> (by Ionic) — native runtime; no data collected</li>
+    <li><a href="https://ionicframework.com/" target="_blank" rel="noopener">Ionic</a> — UI framework; no data collected</li>
+    <li><a href="https://www.i18next.com/" target="_blank" rel="noopener">i18next</a> — localization; no data collected</li>
+    <li>Google AdMob — see section 5 above</li>
+    <li>ipwho.is — see section 7 above</li>
+  </ul>
+
+  <h2>9. Data Sharing and Sale</h2>
+  <p>
+    We do not sell, trade, or otherwise transfer any personal information to third parties. AdMob data is
+    processed under Google's own privacy terms.
+  </p>
+
+  <h2>10. Children's Privacy</h2>
+  <p>
+    The app is not directed to children under the age of 13. We do not knowingly collect personal information
+    from children. If you believe a child has provided personal information through the app, please contact us
+    so we can take appropriate action.
+  </p>
+
+  <h2>11. Your Rights and Data Deletion</h2>
+  <p>Since all data is stored locally, you have full control:</p>
+  <ul>
+    <li><strong>Delete all app data:</strong> go to your device Settings → Apps → Word Cross → Storage → Clear Data.</li>
+    <li><strong>Uninstall:</strong> removing the app deletes all locally stored progress. No data remains anywhere.</li>
+  </ul>
+
+  <h2>12. Security</h2>
+  <p>
+    Your game progress never leaves your device. The app has no backend database. The only external
+    communications are: (a) anonymous AdMob ad requests, (b) the version-check JSON fetch from GitHub Pages,
+    and (c) the one-time first-launch language lookup described in section 7 — none of which involve personal data.
+  </p>
+
+  <h2>13. Changes to This Policy</h2>
+  <p>
+    We may update this privacy policy from time to time. Any changes will be posted on this page with an updated
+    "Last updated" date. Continued use of the app after changes constitutes acceptance of the revised policy.
+  </p>
+
+  <h2>14. Contact Us</h2>
+  <p>
+    If you have questions, concerns, or requests regarding this privacy policy or your data, please contact:<br>
+    Email: <a href="mailto:oussema.trichi.96@gmail.com">oussema.trichi.96@gmail.com</a>
+  </p>
+</body>
+</html>
