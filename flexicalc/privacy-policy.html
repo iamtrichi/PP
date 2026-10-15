@@ -27,8 +27,9 @@
   <h2>1. Overview</h2>
   <p>
     FlexiCalc ("we", "our", or "the app") is a smart unit converter and calculator for Android.
-    Calculations and conversions run entirely on your device; the only network use is ad requests,
-    as described in section 5 below. This privacy policy explains
+    Calculations and conversions run entirely on your device; the only network uses are ad requests
+    and currency exchange-rate updates,
+    as described in sections 5 and 6 below. This privacy policy explains
     what data is (and is not) collected when you use the FlexiCalc mobile application, and how that data is handled.
   </p>
 
@@ -39,9 +40,10 @@
     (Capacitor Preferences, with a local-storage fallback) and remains entirely under your control:
   </p>
   <ul>
-    <li>Calculation history (expressions, results, and converted values)</li>
-    <li>Calculator preferences: selected category and units</li>
-    <li>App settings: selected language</li>
+    <li>Calculation history (expressions, results, and optional notes)</li>
+    <li>Calculator memory and preferences: angle mode (degrees/radians), fraction display</li>
+    <li>Selected converter category and units, and the last fetched currency rates (for offline use)</li>
+    <li>App settings: theme and selected language</li>
     <li>Your ad-consent choice</li>
   </ul>
 
@@ -55,17 +57,20 @@
     <li>Usage analytics or behavioural tracking</li>
   </ul>
 
-  <h2>4. Permissions</h2>
+  <h2>4. Permissions and Network Use</h2>
   <p>
-    The app requests only the <strong>INTERNET</strong> permission, which is used exclusively for the ad requests
-    described below. FlexiCalc does not request notification, location, camera, microphone,
-    contacts, or storage permissions.
+    The app requests only the <strong>INTERNET</strong> permission, which is used exclusively for the two
+    network purposes described in this policy: ad requests (section 5) and currency exchange-rate
+    updates (section 6). FlexiCalc does not request notification, location, camera, microphone,
+    contacts, or storage permissions. Your calculations and conversions themselves never leave
+    your device.
   </p>
 
   <h2>5. Advertising (Google AdMob)</h2>
   <p>
-    The app uses <a href="https://admob.google.com/" target="_blank" rel="noopener">Google AdMob</a> to display a
-    banner and rewarded video ads (watching a rewarded ad unlocks the history-export feature).
+    The app uses <a href="https://admob.google.com/" target="_blank" rel="noopener">Google AdMob</a> to display
+    banner and interstitial ads. All app features — including history export — are free and never
+    gated behind ads.
     AdMob may collect anonymous information about your device and ad interactions in accordance with Google's
     privacy policy, including:
   </p>
@@ -87,6 +92,10 @@
     <li><a href="https://capacitorjs.com/" target="_blank" rel="noopener">Capacitor</a> (by Ionic) — native runtime; no data collected</li>
     <li><a href="https://ionicframework.com/" target="_blank" rel="noopener">Ionic</a> — UI framework; no data collected</li>
     <li><a href="https://www.i18next.com/" target="_blank" rel="noopener">i18next</a> — localization; no data collected</li>
+    <li><a href="https://www.frankfurter.dev/" target="_blank" rel="noopener">Frankfurter</a> — open exchange-rate data
+      (European Central Bank reference rates). The app downloads the latest rates when online and caches them
+      on your device for offline use. These requests transmit no personal data — only the fact that current
+      rates were requested.</li>
     <li>Google AdMob — see section 5 above</li>
   </ul>
 
@@ -101,7 +110,7 @@
     FlexiCalc may be used by users of all ages, including children. The app is
     designed to be safe for general audiences: it has no sign-up or login, no chat
     or user-generated content, no in-app purchases, and no usage analytics.
-    Rewarded ads are always optional and are never required to use the calculator.
+    Ads are never required to use the calculator.
   </p>
   <p>
     Advertising shown to children is handled under Google's Families and
@@ -122,9 +131,9 @@
   <h2>10. Security</h2>
   <p>
     Your calculation history never leaves your device. The app has no backend database. The only external
-    communication is AdMob ad requests. These network requests
+    communications are AdMob ad requests and Frankfurter exchange-rate updates. These network requests
     necessarily transmit technically-required data (e.g. the Advertising ID and IP address for ads)
-    as detailed in section 5; your calculations themselves
+    as detailed in sections 5 and 6; your calculations themselves
     never leave your device.
   </p>
 
