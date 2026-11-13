@@ -72,6 +72,22 @@ Welcome! I am an independent mobile developer crafting reliable, functional, and
 
 ---
 
+### GTA Cheats Guide
+> **Offline cheat-code companion for nine Grand Theft Auto titles.**
+
+* **Category:** Reference / Games
+* **Status:** Preparing for Google Play
+* **Package:** `com.trichi.gta.cheat`
+* **Key Features:**
+  * Cheat codes for nine GTA titles, organized by category.
+  * PC, PlayStation, Xbox, and mobile platform codes.
+  * 18 languages, including right-to-left Arabic and Persian.
+  * Cross-game and cross-platform search.
+  * 100% offline guide content.
+* **Privacy Policy:** [Privacy Policy](https://iamtrichi.github.io/PP/gta-cheats-guide/privacy-policy.html)
+
+---
+
 ## 📬 Support & Feedback
 
 If you enjoy using my apps, have questions, or would like to report an issue:
